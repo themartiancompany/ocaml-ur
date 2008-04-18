@@ -1,4 +1,3 @@
-# $Id: PKGBUILD,v 1.12 2008/03/02 17:49:08 tpowa Exp $
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=ocaml	
