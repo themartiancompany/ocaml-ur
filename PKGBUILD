@@ -1,8 +1,8 @@
 #Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgname=ocaml	
-pkgver=3.11.0
-pkgrel=2
+pkgver=3.11.1
+pkgrel=1
 pkgdesc="Ocaml compiler - Ocaml is a functional language with OO extensions"
 arch=(i686 x86_64)
 license=('LGPL2' 'custom: QPL-1.0')
@@ -25,4 +25,3 @@ build() {
 # install license
 install -D -m 644 $startdir/src/$pkgname-$pkgver/LICENSE $startdir/pkg/usr/share/licenses/ocaml/LICENSE
 }
-md5sums=('be152066bdf09761ddf1c31291e5cb90')
