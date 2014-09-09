@@ -2,8 +2,8 @@
 
 pkgbase='ocaml'
 pkgname=('ocaml' 'ocaml-compiler-libs')
-pkgver=4.01.0
-pkgrel=3
+pkgver=4.02.0
+pkgrel=1
 pkgdesc="A functional language with OO extensions"
 arch=('i686' 'x86_64')
 license=('LGPL2.1' 'custom: QPL-1.0')
@@ -11,7 +11,7 @@ url="http://caml.inria.fr/"
 depends=('gdbm')
 makedepends=('tk>=8.6.0' 'ncurses>=5.6-7' 'libx11')
 optdepends=('ncurses: advanced ncurses features' 'tk: advanced tk features')
-source=(http://caml.inria.fr/distrib/ocaml-4.01/${pkgname}-${pkgver}.tar.gz)
+source=(http://caml.inria.fr/distrib/ocaml-4.02/${pkgname}-${pkgver}.tar.gz)
 options=('!makeflags' '!emptydirs' 'staticlibs')
 
 build() {
@@ -53,4 +53,4 @@ optdepends=()
   install -m755 -d "${pkgdir}/usr/share/licenses/${pkgname}"
   install -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
-md5sums=('04dfdd7da189462a4f10ec6530359cef')
+md5sums=('8bba7e7d872083af1723dd450e07a5f4')
