@@ -4,6 +4,7 @@ pkgbase = ocaml
 	pkgrel = 1
 	url = https://caml.inria.fr/
 	arch = x86_64
+	arch = arm
 	license = LGPL2.1
 	license = custom: QPL-1.0
 	makedepends = ncurses>=5.6-7
